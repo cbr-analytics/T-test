@@ -1,0 +1,8 @@
+# Paired T-Test for two groups
+
+G1 <- c(11,22,33,44,55,66,77)
+G2 <- c(21,32,43,54,65,76,2)
+
+PairedTtestResult <- t.test(G1, G2, paired = TRUE)
+
+summary(PairedTtestResult)
